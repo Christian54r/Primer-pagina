@@ -1,4 +1,5 @@
-
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { 	margin: 0; 	padding: 0; 	border: 0; 	font-size: 100%; 	font: inherit; 	vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 	display: block; } body { 	line-height: 1; } ol, ul { 	list-style: none; } blockquote, q { 	quotes: none; } blockquote:before, blockquote:after, q:before, q:after { 	content: ''; 	content: none; } table { 	border-collapse: collapse; 	border-spacing: 0; }
+ 
 body {
     background-color: #161513;
 }
@@ -8,7 +9,6 @@ body {
     align-items: center;
     max-width: 810px;
     margin: 0 auto;
-    gap: 256px;
 }
 .div-container-1 {
     background-color: #222222;
@@ -20,10 +20,22 @@ body {
 }
 .div-submenu {
     display: flex;
-    gap: 71px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 15px;
+}
+.div-submenu a {
+    padding: 30px 30px;
     color: white;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .div-submenu {
+        display: none;
+    }
 }
 .div-container-2 {
     display: flex;
@@ -34,18 +46,23 @@ body {
 .div-avatar-1 {
     width: 213px;
     height: 213px;
-    padding-top: 106.82px;
-    padding-bottom: 42px;
-    padding-left: 607px;
-    padding-right: 620px;
+    margin-top: 106.82px;
+    margin-bottom: 42px;
 }
 .div-container-text-image-1 {
-    width: 670px;
-    height: 127px;
-    padding-top: 41px;
-    padding-bottom: 39px;
-    padding-left: 384px;
-    padding-right: 386px;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 55px;
+    max-width: 656px;
+    width: 90%;
+}
+.gradiente {
+    background: linear-gradient(90deg,#FF8660,#9A33FF);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .div-container-text-1 {
     font-family: 'Poppins', sans-serif;
@@ -56,47 +73,45 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 108px;
-    width: 679px;
-    margin: 0 auto;
+    margin-top: 39px;
+    max-width: 656px;
+    width: 90%;
 }
 .div-buttom-1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 54px;
+    margin-bottom: 88px;
     gap: 18px;
-    padding-top: 54px;
-    padding-left: 496px;
-    padding-right: 527px;
-    padding-bottom: 88px;
-    width: 417px;
-    height: 64px;
 }
 
 .btn-1 {
-    width: 195px;
-    height: 64px;
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-    outline: none;
-    cursor: pointer;
+    color: black;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 21.38px;
 }
 .btn-2 {
-    width: 204px;
-    height: 64px;
+    color: white;
     background-color: transparent;
-    border: none;
-    box-shadow: none;
-    outline: none;
-    cursor: pointer;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: 2px solid white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 21.38px;
 }
 
 .div-container-text-2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    white-space: nowrap;
     font-family: 'Poppins', sans-serisf;
     font-weight: 600;
     color: #C5C5C5;
@@ -155,13 +170,3 @@ body {
 }
 
 
-a:link {
-     color: white; /* Enlaces no visitados */
-   }
-
-a:visited {
-    color: white; /* Enlaces ya visitados */
-}
-a {
-    text-decoration: none;
-}
