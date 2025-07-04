@@ -109,48 +109,67 @@ body {
 }
 
 .div-container-text-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-family: 'Poppins', sans-serisf;
     font-weight: 600;
+    font-size: 20px;
     color: #C5C5C5;
-    padding-left: 608px;
-    padding-right: 624px;
-    padding-bottom: 48px;
-}
-.div-container-img-2 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-left: 496px;
-    padding-right: 497.18px;
-    padding-bottom: 99px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 656px;
+    width: 90%;
 }
+.div-container-img-2 {
+  display: flex;
+  justify-content: center;  /* Centra las imágenes horizontalmente */
+  align-items: center;      /* Centra verticalmente si es necesario */
+  gap: 60px;                /* Espacio entre imágenes */
+  flex-wrap: wrap;          /* Permite que bajen de línea en pantallas pequeñas */
+  margin-top: 48px;
+}
+
+.div-container-img-2 img {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;        /* Evita que las imágenes se deformen */
+}
+
 .div-container-img-3 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-left: 625.25px;
-    padding-right: 632.75px;
-    padding-bottom: 27px;
-}
-.div-container-img-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding-left: 315px;
-    padding-right: 315px;
-    padding-bottom: 96px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 35px;
+    background: linear-gradient(to bottom,#FF8660,#D5491D);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0 auto;
+    max-width: 656px;
+    width: 90%;
+    margin-top: 99px;
+    margin-bottom: 27px;
+    padding: 3px;
 }
 .div-container-img-5 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-left: 613px;
-    padding-right: 614px;
-    padding-bottom: 57px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 35px;
+    background: linear-gradient(to bottom,#5BADFF,#1373D1);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0 auto;
+    max-width: 656px;
+    width: 90%;
+    margin-top: 96px;
+    margin-bottom: 57px;
+    padding: 3px;
 }
 .div-container-img-6 {
     display: flex;
