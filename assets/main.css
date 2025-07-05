@@ -171,6 +171,44 @@ body {
     margin-bottom: 57px;
     padding: 3px;
 }
+.container-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.images-projects {
+    width: 390px;
+    height: 235px;
+    margin-bottom: 12px;
+    margin-top: -12px;
+}
+.enlace-fondo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 301px;
+    background-color: #2A2A2A;
+    border: 1px solid #000000;
+    border-radius: 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container-svg {
+    display: flex;
+    align-items: center;
+    gap: 169.38px;
+    margin-bottom: 16px;
+}
+.SVG-IR {
+    width: 15.17px;
+    height: 14.09px;
+}
 .div-container-img-6 {
     display: flex;
     justify-content: center;
