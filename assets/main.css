@@ -171,7 +171,7 @@ body {
     margin-bottom: 57px;
     padding: 3px;
 }
-.container-project {
+.container-projects {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,7 +187,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 390px;
     height: 301px;
     background-color: #2A2A2A;
@@ -196,13 +195,36 @@ body {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px;
     box-sizing: border-box;
 }
-.container-svg {
+.container-span-1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 20px;
+    font-size: 10px;
+    color: #8491A0;
+    line-height: 19px;
+}
+.container-span-2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 20px;
+    font-size: 19px;
+    line-height: 20px;
+    margin-bottom: 14px;
+}
+.container-svg-1 {
     display: flex;
     align-items: center;
     gap: 169.38px;
+    margin-bottom: 16px;
+}
+.container-svg-2 {
+    display: flex;
+    align-items: center;
+    gap: 178.79px;
     margin-bottom: 16px;
 }
 .SVG-IR {
