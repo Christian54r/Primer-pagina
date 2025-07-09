@@ -210,26 +210,25 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
-    padding-left: 20px;
+    margin-left: 20px;
     font-size: 19px;
     line-height: 20px;
     margin-bottom: 14px;
 }
 .container-svg-1 {
     display: flex;
-    align-items: center;
     gap: 169.38px;
     margin-bottom: 16px;
 }
 .container-svg-2 {
     display: flex;
-    align-items: center;
     gap: 178.79px;
     margin-bottom: 16px;
 }
 .SVG-IR {
     width: 15.17px;
     height: 14.09px;
+    padding-left: 19.63pxs;
 }
 .div-container-img-6 {
     display: flex;
