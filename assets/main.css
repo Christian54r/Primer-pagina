@@ -85,6 +85,9 @@ body {
     margin-bottom: 88px;
     gap: 18px;
 }
+.div-buttom-1 a {
+    text-decoration: none;
+}
 
 .btn-1 {
     color: black;
@@ -330,4 +333,9 @@ margin: 0 auto;
 }
 .div-container-4 {
     gap: 27px;
+    display: flex;
+    align-items: center;
+}
+.div-container-4 a {
+    text-decoration: none;
 }
